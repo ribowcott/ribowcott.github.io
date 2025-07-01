@@ -4,43 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Material Design Grid</title>
+  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
-<style>
-  .grid-container {
-    display: grid;
-    gap: 16px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    padding: 16px;
-  }
 
-  .grid-item {
-    height: 200px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Roboto, sans-serif;
-    border-radius: 8px;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .bg1 { background-image: url('./images/Image 2.jpeg'); } 
-  .bg2 { background-image: url('https://images.pexels.com/photos/13652004/pexels-photo-13652004.jpeg'); }
-  .bg3 { background-image: url('https://images.pexels.com/photos/13652004/pexels-photo-13652004.jpeg'); }
-  .bg4 { background-image: url('https://images.pexels.com/photos/13652004/pexels-photo-13652004.jpeg'); }
-  .bg5 { background-image: url('https://images.pexels.com/photos/13652004/pexels-photo-13652004.jpeg'); }
-</style>
 </head>
 <body>
+  
+  <div class="page-wrapper">
+    <div class="header">
+      <h1>PDSVISION</h1>
+      <h2>Augmented Reality Examples</h2>
+    </div>
+    <div class="grid-container">
+      
+      <div class="grid-item bg1">
+        <div class="overlay"></div>
+        DeWulf
+      </div>
+      <div class="grid-item bg2">
+        <div class="overlay"></div>
+        Rocket
+      </div>
+      <div class="grid-item bg3">
+        <div class="overlay"></div>
+        Card 1
+      </div>
+      <div class="grid-item bg4">
+        <div class="overlay"></div>
+        Card 1
+      </div>
+      <div class="grid-item bg4">
+        <div class="overlay"></div>
+        Card 1
+      </div>
+      <div class="grid-item bg4">
+        <div class="overlay"></div>
+        Card 1
+      </div>
 
-<div class="grid-container">
-  <div class="grid-item bg1">Card 1</div>
-  <div class="grid-item bg2">Card 2</div>
-  <div class="grid-item bg3">Card 3</div>
-  <div class="grid-item bg4">Card 4</div>
-  <div class="grid-item bg5">Card 5</div>
-</div>
+    </div>
+  </div>
 
 </body>
 <!-- Include MDC Web CSS and JS via CDN -->
