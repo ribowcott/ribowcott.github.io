@@ -1,0 +1,21 @@
+{
+    "image": "Porsche Web Config PDS.32.16",
+    "model_sets": [
+        "Default"
+    ],
+    "multi_materials": [
+        {
+            "base_material": "Ground",
+            "sub_material": "Cool Grey"
+        },
+        {
+            "base_material": "Body",
+            "sub_material": "Grey"
+        },
+        {
+            "base_material": "Alloys",
+            "sub_material": "Champagne"
+        }
+    ],
+    "studio": "Zoomed Out"
+}
