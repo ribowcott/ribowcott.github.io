@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DeWulf</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <style>
+      model-viewer {
+        width: 100vw;
+        height: 90vh;
+        margin: 0 auto;
+      }
+      model-viewer::part(default-progress-bar)
+      {
+        position: relative;
+        margin-top: 30px;
+        height: 30px;
+        background-color: rgba(255, 0, 0, 0.608);
+      }
+    </style>
+  </head>
+
+  <body frameborder="0" scrolling="no" marginheight="0" marginwidth="0" allowfullscreen>
+    <model-viewer
+      bounds="tight"
+      camera-controls
+      enable-pan
+      disable-zoom
+      camera-target="-0.003098m 0.15m -0.011219m"
+      camera-orbit="59.02deg 67.47deg 3m"
+      interaction-prompt-threshold="0"
+      shadow-intensity="1"
+      autoplay
+      src="./models/Dewulf.glb"
+      alt="DeWulf Potato Planter"
+      ar 
+      ar-modes="webxr scene-viewer quick-look"
+    ></model-viewer>
+  </body>
+</html>
