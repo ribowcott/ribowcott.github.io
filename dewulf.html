@@ -21,6 +21,30 @@
         height: 30px;
         background-color: rgba(255, 0, 0, 0.608);
       }
+
+      .back-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 48px;
+  height: 48px;
+  background-color: #ffffffcc; /* white with slight transparency */
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 48px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  z-index: 999;
+  transition: background 0.2s ease;
+}
+
+.back-button:hover {
+  background-color: #ffffff;
+}
+
     </style>
   </head>
 
@@ -29,9 +53,7 @@
       bounds="tight"
       camera-controls
       enable-pan
-      disable-zoom
-      camera-target="-0.003098m 0.15m -0.011219m"
-      camera-orbit="59.02deg 67.47deg 3m"
+      camera-orbit="59.02deg 67.47deg 60m"
       interaction-prompt-threshold="0"
       shadow-intensity="1"
       autoplay
