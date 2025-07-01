@@ -6,7 +6,7 @@ html, body {
 }
 
 .header h1 {
-  font-size: 4rem;
+  font-size: 50px;
   font-family: Arial, Helvetica, sans-serif;
   color: White;
   margin: 0;
@@ -18,7 +18,7 @@ html, body {
 }
 
 .header h2 {
-  font-size: 1.2rem;
+  font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(204, 204, 204);
   margin: 0;
@@ -37,7 +37,7 @@ html, body {
   z-index: 0; /* behind everything */
   overflow: hidden;
   pointer-events: none;
-  background: linear-gradient(160deg, #000000 0%, #181818 100%);
+  background: linear-gradient(160deg, #1f1f1f 0%, #181818 100%);
 }
 
 
@@ -115,6 +115,6 @@ html, body {
 /* Background images */
 .bg1 { background-image: url('./images/dewulf.webp'); }
 .bg2 { background-image: url('./images/poster.webp'); }
-.bg3 { background-image: url('./images/placeholder.jpg'); }
+.bg3 { background-image: url('./images/pdsbike.webp'); }
 .bg4 { background-image: url('./images/placeholder.jpg'); }
 .bg5 { background-image: url('./images/placeholder.jpg'); }

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PdsBike</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <style>
+      model-viewer {
+        width: 100vw;
+        height: 90vh;
+        margin: 0 auto;
+      }
+      model-viewer::part(default-progress-bar)
+      {
+        position: absolute;
+        height: 14;
+        background-color: rgb(58, 58, 58);
+      }
+
+      .back-button {
+  position: fixed;
+  top: 30px;
+  left: 40px;
+  width: 48px;
+  height: 48px;
+  background-color: #242424; /* white with slight transparency */
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 48px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  z-index: 999;
+  transition: background 0.2s ease;
+}
+
+.back-button:hover {
+  background-color: #585858;
+}
+
+    </style>
+  </head>
+
+  <body frameborder="0" scrolling="no" marginheight="0" marginwidth="0" allowfullscreen>
+    <a href="index.html" class="back-button" aria-label="Back to home">←</a>
+
+    <model-viewer
+      bounds="tight"
+      camera-controls
+      enable-pan
+      camera-orbit="36.99deg 71.82deg 4.438m"
+      interaction-prompt-threshold="0"
+      shadow-intensity="1"
+      autoplay
+      src="./models/pdsbike.glb"
+      alt="DeWulf Potato Planter"
+      ar 
+      ar-modes="webxr scene-viewer quick-look"
+    ></model-viewer>
+  </body>
+</html>
